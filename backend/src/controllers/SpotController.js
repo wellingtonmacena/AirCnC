@@ -26,6 +26,7 @@ module.exports = {
              user: user_id,
              thumbnail: filename,
              company,
+             price,
              techs: techs.split(',').map(tech => tech.trim())
         })
         return res.json(spot);
