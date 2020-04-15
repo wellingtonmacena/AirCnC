@@ -17,11 +17,11 @@ export default function Book({ navigation }){
 
         Alert.alert('Solicitação de reserva enviada')
 
-        navigation.navigate('List')
+        navigation.navigate('List')   
+    }
 
-        function handleCancel(){
-            navigation.navigate('List')
-        }
+    function handleCancel(){
+        navigation.navigate('List')
     }
     
     return (
